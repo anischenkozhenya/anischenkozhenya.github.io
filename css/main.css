@@ -1,3 +1,13 @@
+body{
+    background-image: linear-gradient(rgb(215, 247, 212), rgba(233, 147, 19, 0.884));  
+}
 .mybody{
     margin-top: 20px
+}
+.foto{
+    height: 208px;
+    weight: 98px;
+}
+.skills{
+    font-family: 'DM Serif Text', serif;
 }

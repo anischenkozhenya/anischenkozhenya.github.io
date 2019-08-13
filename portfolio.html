@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
     <title>AnischenkoZhenya</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-success">        
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,58 +39,105 @@
     </nav>
     <div class="container mybody" id="mybody">
         <div class="row">
-            <div class="col-sm-3">
-                <img class="card-img rounded-circle border border-2 border-primary" src="img/foto.jpg" alt="myfoto">
+            <div class="col-md-3">
+                <img class="card-img foto rounded-circle border border-4 border-success" src="img/foto.jpg" alt="myfoto">
             </div>
-            <div class="col-lg-8 ml-auto">
-                <H2>
+            <div class="col-md-8 ml-auto">
+                <h2 class="border border-2 border-bottom bordet-success text-center">
                     Анищенко Евгений Викторович
-                </H2>
+                </h2>
+                <p>Белорусский Государственный Университет Транспорта, 2016
+                        Специальность - автоматика, телемеханика и связь на железной дороге
+                        Специализация - микропроцессорные информационно-управляющие системы
+                        Опыт работы
+                        Минская дистанция сигнализации и связи</p>
             </div>
         </div>
     </div>
-    <div class="container skills mt-5 border border-5 border-primary rounded" id="skills">
+    <div class="container skills mt-5 border border-8 border-primary rounded" id="skills">
         <div class="row">
             <div class="col-lg-12 d-inline-flex p-2 justify-content-center">
                 <h1>Навыки</h1>
             </div>
         </div>
         <div class="row justify-content-around mb-5 mx-2">
-            <div class="col-lg-5 border border-2 border-primary p-3">
-                <h3>
-                    c#
-                </h3>
-                <ul>
-                    <li>LinQ</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="col-lg-5 border border-2 border-primary p-3">
-                <h3>
-                    web
-                </h3>
-                <ul>
-                    <li>html</li>
-                    <li>css</li>
-                    <li>bootstrap4</li>
-
-                </ul>    
-                </div>
-        </div>
-        <div class="row justify-content-center mb-5 mx-2">
-            <div class="col-lg-5 border border-primary">
-                    <h3>
-                            Другие
+            <div class="col-md-5 p-3">
+                <div class="card bg-primary">
+                    <div class="card-body">
+                        <h3 class="card-header text-center">
+                            <span>
+                                <img src="img/cshrarp.png" width="40" height="40" alt="csharpicon">
+                            </span>
+                            .NET
                         </h3>
-                        <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-            
-                            </ul>
+                        <ul class="card-text">
+                            <li>Классы и объекты.</li>
+                            <li>Наследование.</li>
+                            <li>Полиморфизм. Версионность.</li>
+                            <li>Абстрактные классыи и интерфейсы.</li>
+                            <li>Статические и вложенные классы.</li>
+                            <li>Структуры. Перечисления.</li>
+                            <li>Делегаты.</li>
+                            <li>События.</li>
+                            <li>Универсальные шаблоны и их ограничения.</li>
+                            <li>Пользовательские колекции. Системные коллекции.</li>
+                            <li>Обработка исключений.</li>
+                            <li>Перегрузка операторов.</li>
+                            <li>Анонимные и динамические методы. LinQ.</li>
+                            <li>Пространства имен.</li>
+                            <li>Программирование ввода-вывода.</li>                            
+                            <li>XML. Файлы конфигурации. Реестр.</li>
+                            <li>Рефлексия.</li>
+                            <li>Атрибуты.</li>                            
+                            <li>Сериализация.</li>
+                            <li>Сборщик мусора.</li>
+                            <li>Потоки.</li>
+                            <li>Синхронизация при помощи обьектов ядра и конструкций пользовательского режима.</li>
+                            <li>Асинхронная модель програмирования.</li>
+                            <li>TPL. Параллельное программирование. Async Await.</li>
+                            <li>Домены приложений. NT-службы.</li>
+                            <li>Console. WinForms. WPF.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div class="col-md-5 p-3">
+                <div class="card bg-primary">
+                    <div class="card-body">
+                        <h3 class="card-header text-center">
+                            <span>
+                                <img src="img/website-icon-18.png" width="40" height="40" alt="WEB">
+                            </span>
+                            WEB
+                        </h3>
+                        <ul class="card-text">
+                            <li>Html</li>
+                            <li>css</li>
+                            <li>bootstrap4</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card bg-primary">
+                        <div class="card-body">
+                            <h3 class="card-header text-center">
+                                <span>
+                                    <img src="img/computer.png" width="40" height="40" alt="computer">
+                                </span>
+                                Any
+                            </h3>
+                            <ul class="card-text">
+                                <li>SQL</li>
+                                <li>DHCP, DNS, Active Directory</li>
+                                <li>Администрирование серверов на ОС Windows server 2003/2008/2016 R2</li>
+                                <li>Установка, настройка виртуальных машин VirtalBOX, VmWare</li>
+                                <li>Английский на уровне чтения технической документации</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+          
+
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
