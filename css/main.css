@@ -4,10 +4,16 @@ body{
 .mybody{
     margin-top: 20px
 }
-.foto{
-    height: 208px;
-    weight: 98px;
-}
 .skills{
-    font-family: 'DM Serif Text', serif;
+    
+}
+.mybody span{
+    font-size: 1.2rem; 
+}
+.namefont{
+    
+}
+.foto{
+    max-width: 214px;
+     max-height: 214px;
 }
