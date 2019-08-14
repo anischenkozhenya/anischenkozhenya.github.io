@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    
+
+
     <link rel="stylesheet" href="css/main.css">
 
     <title>AnischenkoZhenya</title>
 </head>
 
-<body>
+<body class="mb-4">
     <nav class="navbar navbar-expand-sm navbar-dark bg-success">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#mybody">Главная</a>
+                    <a class="nav-link" href="#mybody">Превью</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#skills">Навыки</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Практика</a>
+                    <a class="nav-link" href="#practice">Практика</a>
 
                 </li>
                 <li class="nav-item">
@@ -38,10 +38,10 @@
             </ul>
         </div>
     </nav>
-    <div class="mybody" id="mybody">
+    <div class="mybody text" id="mybody">
         <div class="container preview mt-2 p-2 border border-2 border-success rounded" id="preview">
             <div class="row">
-                <div class="col-md-4 col-sm-5 mx-auto text-center">
+                <div class="col-md-4 col-sm-5 m-auto text-center">
                     <img class="card-img foto rounded-circle border border-2 border-success" src="img/foto.jpg"
                         alt="myfoto">
                 </div>
@@ -50,10 +50,14 @@
                         Анищенко Евгений Викторович
                     </h2>
                     <p><span class="text-success strong big">Города проживания:</span> Минск, Гомель<br>
-                        <span class="text-success strong big">Образование:</span> Белорусский Государственный Университет Транспорта, 2016<br>
-                        <span class="text-success strong">Специальность:</span>  Автоматика, телемеханика и связь на железной дороге<br>
-                        <span class="text-success">Специализация:</span> Микропроцессорные информационно-управляющие системы<br>
-                        <span class="text-success">Опыт работы:</span> Минская дистанция сигнализации и связи, Системное администрирование(2016-по настоящее время)</p>
+                        <span class="text-success strong big">Образование:</span> Белорусский Государственный
+                        Университет Транспорта, 2016<br>
+                        <span class="text-success strong">Специальность:</span> Автоматика, телемеханика и связь на
+                        железной дороге<br>
+                        <span class="text-success">Специализация:</span> Микропроцессорные информационно-управляющие
+                        системы<br>
+                        <span class="text-success">Опыт работы:</span> Минская дистанция сигнализации и связи, Системное
+                        администрирование(2016-по настоящее время)</p>
                 </div>
             </div>
         </div>
@@ -63,7 +67,7 @@
                     <h1 class="namefont">Навыки</h1>
                 </div>
             </div>
-            <div class="row justify-content-around mb-5 mx-2">
+            <div class="row justify-content-around mb-5 mx-2 text-white">
                 <div class="col-lg-5 col-md-12 p-3">
                     <div class="card bg-primary">
                         <div class="card-body">
@@ -100,11 +104,43 @@
                                 <li>TPL. Параллельное программирование. Async Await.</li>
                                 <li>Домены приложений. NT-службы.</li>
                                 <li>Console. WinForms. WPF.</li>
+                                <li>Unit-testing.</li>
                             </ul>
+                        </div>
+                        <div class="card-footer" id="accordionnet">
+                            <div class="text-center">
+                                <button class="btn btn-link text-white" data-toggle="collapse"
+                                    data-target="#collapsenet" aria-expanded="true" aria-controls="collapsenet">Ресурсы
+                                    используемые для изучения</button>
+                            </div>
+                            <div class="collapse" id="collapsenet" aria-labelledby="headingnet"
+                                data-parent="#accordionnet">
+                                <ul>
+                                    <li> <a href="https://itvdn.com/ru/specialities/net-developer" class="text-white"
+                                            target="_blank">Видео курсы ITVDN по .NET</a></li>
+                                    <li>
+                                        <a href="https://oz.by/books/more1028671.html" class="text-white"
+                                            target="_blank"> CLR via C#. Программирование на платформе Microsoft .NET
+                                            Framework 4.5 на языке C#(Джеффри Рихтер)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.litmir.me/bd/?b=250895" class="text-white"
+                                            target="_blank">Полный справочник по С#(Шилдт Герберт)</a>
+                                    </li>
+                                    <li>
+                                        1 этап курсов EPAM по .NET
+                                    </li>
+                                    <li>
+                                        <a href="https://www.sololearn.com/Profile/6411421#" class="text-white"
+                                            target="_blank">SOLOLEARN</a>
+                                    </li>
+                                </ul>
+                                <p class="text-center">Опыт: >2 лет.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12 p-3 flex-column d-flex justify-content-around">
+                <div class="col-lg-5 col-md-12 p-3 flex-column d-flex justify-content-around text-white">
                     <div class="card bg-primary mb-3">
                         <div class="card-body">
                             <h3 class="card-header text-center">
@@ -114,10 +150,31 @@
                                 WEB
                             </h3>
                             <ul class="card-text">
-                                <li>Html</li>
-                                <li>css</li>
-                                <li>bootstrap4</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap4</li>
                             </ul>
+                        </div>
+                        <div class="card-footer" id="accordionweb">
+                            <h4 class="text-center">
+                                <button class="btn btn-link text-white" data-toggle="collapse"
+                                    data-target="#collapseweb" aria-expanded="true" aria-controls="collapseweb">Ресурсы
+                                    используемые для изучения</button>
+                            </h4>
+
+                            <div class="collapse" id="collapseweb" aria-labelledby="headingweb"
+                                data-parent="#accordionnet">
+                                <ul>
+                                    <li> <a href="https://itvdn.com/ru/specialities/html-coder" class="text-white"
+                                            target="_blank">Видео курсы ITVDN по HTML, CSS, Bootstrap4</a></li>
+                                    <li>
+                                        <a href="https://bootstrap-4.ru/" class="text-white"
+                                            target="_blank">Документация на
+                                            сайту Bootstrap4</a>
+                                    </li>
+                                </ul>
+                                <p class="text-center">Опыт: >2 месяцев.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="card bg-primary mt-3">
@@ -138,9 +195,92 @@
                         </div>
                     </div>
                 </div>
-
-
-
+            </div>
+        </div>
+        <div class="container practice mt-2 border border-2 border-info rounded" id="practice">
+            <div class="row">
+                    <div class="col-lg-12 d-inline-flex p-2 justify-content-center">
+                            <h1 class="namefont">Практика</h1>
+                        </div>
+            </div>
+            <div class="row  justify-content-around mb-5 mx-2 text-white">
+                    <div class="col-lg-5 col-md-12 p-3 ">
+                            <div id="accordion_practice">
+                                <div class="card bg-info">
+                                    <div class="card-header" id="headingOne">
+                                        <h5>
+                                            <button class="btn btn-link text-center text-white" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Пользовательские коллекции</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion_practice">
+                                        <div class="card-body">
+                                                <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="list-group" id="list-tab" role="tablist">
+                                                                <a class="list-group-item list-group-item-success active" id="list-home-list" data-toggle="list" href="#list-home" >
+                                                                    Задание 1
+                                                                    
+                                                                </a>
+                                                                <a class="list-group-item list-group-item-success" id="list-profile-list" data-toggle="list" href="#list-profile" >
+                                                                    Задание 2
+                                                                    
+                                                                </a>
+                                                                <a class="list-group-item list-group-item-success" id="list-messages-list" data-toggle="list" href="#list-messages">
+                                                                    Задание 3
+                                                                    
+                                                                </a>
+                                                                <a class="list-group-item list-group-item-success" id="list-settings-list" data-toggle="list" href="#list-settings">
+                                                                    Задание 4
+                                                                    
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="tab-content" id="nav-tabContent">
+                                                                <div class="tab-pane fade show active" id="list-home" aria-labelledby="list-home-list">
+                                                                   <p>Задача: <br>Ссылка на решение: <a href="#"></a></p> 
+                                                                </div>
+                                                                <div class="tab-pane fade" id="list-profile" aria-labelledby="list-profile-list">
+                                                                   <p>Задача: <br>Ссылка на решение: <a href="#"></a></p> 
+                                                                </div>
+                                                                <div class="tab-pane fade" id="list-messages" aria-labelledby="list-messages-list">
+                                                                   <p>Задача: <br>Ссылка на решение: <a href="#"></a></p> 
+                                                                </div>
+                                                                <div class="tab-pane fade" id="list-settings" aria-labelledby="list-settings-list">
+                                                                   <p>Задача: <br>Ссылка на решение: <a href="#"></a></p> 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-info">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5>
+                                            <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Системные коллекции</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse"  id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordion_practice">
+                                        <div class="card-body">
+                                            <p>йцуей</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-info">
+                                    <div class="card-header" id="headingThree">
+                                        <h5>
+                                            <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Ввод-Вывод</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordion_practice">
+                                        <div class="card-body">
+                                            <p>йцукен</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
