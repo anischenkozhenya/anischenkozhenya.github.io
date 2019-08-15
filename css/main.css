@@ -1,3 +1,6 @@
+.navbar-nav a:hover{
+    color: red;
+}
 body{
     background-image: linear-gradient(rgb(215, 247, 212), rgba(233, 147, 19, 0.884));  
 }
