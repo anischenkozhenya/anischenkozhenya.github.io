@@ -9,22 +9,14 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/brands.css">
-    <link rel="stylesheet" href="css/brands.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/regular.css">
-    <link rel="stylesheet" href="css/regular.min.css">
-    <link rel="stylesheet" href="css/solid.css">
-    <link rel="stylesheet" href="css/solid.min.css">
+
     <link rel="stylesheet" href="css/main.css">
 
     <title>AnischenkoZhenya</title>
 </head>
 <!-- Тело сайта -->
 
-<body class="mb-4">
+<body>
     <!-- NavBar-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-success">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,17 +26,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#mybody">Превью</a>
+                    <a class="nav-link navlogo" href="#mybody">Превью</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills">Навыки</a>
+                    <a class="nav-link navlogo" href="#skills">Навыки</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#practice">Практика</a>
+                    <a class="nav-link navlogo" href="#practice">Практика</a>
 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contacts">Контакты</a>
+                    <a class="nav-link navlogo" href="#contacts">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -153,7 +145,7 @@
                                             target="_blank">SOLOLEARN</a>
                                     </li>
                                 </ul>
-                                <p class="text-center">Опыт: >1 года.</p>
+                                <p class="text-center">Изучаю: >1 года.</p>
                             </div>
                         </div>
                     </div>
@@ -175,12 +167,14 @@
                             </ul>
                         </div>
                         <div class="card-footer" id="accordionweb">
+                            <div>
                             <h4 class="text-center">
                                 <button class="btn btn-link text-white" data-toggle="collapse"
-                                    data-target="#collapseweb" aria-expanded="true" aria-controls="collapseweb">Ресурсы
+                                    data-target="#collapseweb" aria-expanded="true" aria-controls="collapseweb"><p>Ресурсы
+                                            используемые для изучения</p>Ресурсы
                                     используемые для изучения</button>
                             </h4>
-
+                        </div>  
                             <div class="collapse" id="collapseweb" aria-labelledby="headingweb"
                                 data-parent="#accordionweb">
                                 <ul>
@@ -192,7 +186,7 @@
                                             сайту Bootstrap4</a>
                                     </li>
                                 </ul>
-                                <p class="text-center">Опыт: >2 месяцев.</p>
+                                <p class="text-center">Изучаю: >2 месяцев.</p>
                             </div>
                         </div>
                     </div>
@@ -227,7 +221,7 @@
                 </div>
             </div>
             <div class="row  justify-content-around mb-5 mx-2 text-white">
-                <div class="col-lg-5 col-md-12 p-3 ">
+                <div class="col-md-12 p-3 ">
                     <div id="accordion_practice">
                         <div class="card bg-info">
                             <div class="card-header" id="headingOne">
@@ -413,29 +407,45 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- Основное тело -->
-        <div class="container contacts mt-2 border border-2 border-dark rounded" id="contacts">
-            <div class="col-lg-12 d-inline-flex p-2 justify-content-center">
-                <h1 class="namefont">Контакты</h1>
-            </div>
+        <!-- Контакты -->
+        <div class="container-fluid bg-dark contacts" id="contacts">
             <div class="row">
-                <div class="col-lg-1">
-                    <ul class="socials"></ul>
-                    <li>
-                        <a href="https://github.com/anischenkozhenya" target="_blank">
-                            <i class="fab fa-github logocontacts"></i>
-                        </a>
-                    </li>
+                <div class="col-lg-12 d-inline-flex p-2 justify-content-center text-white">
+                    <h1 class="namefont">Контакты</h1>
                 </div>
-                <div class="col-lg-1">
-                    <i class="fab fa-telegram"></i>
-                </div>
-                <div class="col-lg-3">
-                    <p><i class="fas fa-phone"></i>+375445468555</p>
-                </div>
+                <div class="col-lg-12">
+                    <ul class="socials d-flex justify-content-center">
+                        <li>
+                            <a href="https://vk.com/anishchenko_zhenya" target="_blank" class="foterlogo">
+                                <i class="fab fa-vk logocontacts mx-2"></i>
+                            </a>
+                        </li> 
+                        <li>
+                                <a href="" target="_blank" class="foterlogo">
+                                        <i class="fab fa-linkedin mx-2"></i>
+                                </a>
+                            </li>                        
+                        <li>
+                            <a href="https://github.com/anischenkozhenya" target="_blank" class=" foterlogo">
+                                <i class="fab fa-github logocontacts mx-2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/anischenkozhenya" target="_blank" class=" foterlogo"><i class="fab fa-telegram mx-2"></i></a>
+                        </li>
+                        <li>
+                                <a href="mailto:anischenkozhenya@gmail.com" target="_blank" class="foterlogo">
+                                    <i class="far fa-envelope-open logocontacts mx-2"></i>anischenkozhenya@gmail.com
+                                </a>
+                            </li>
+                        <li>
+                            <a href="tel:+375445468555" class=" foterlogo">
+                                <i class="fas fa-phone mx-2"></i>+375445468555</a>
+                        </li>
 
+                        
+                    </ul>
+                </div>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

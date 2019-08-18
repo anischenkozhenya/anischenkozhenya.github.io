@@ -18,5 +18,16 @@ body{
 }
 .foto{
     max-width: 214px;
-     max-height: 214px;
+    max-height: 214px;
 }
+
+.foterlogo:hover{
+    color:red;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:rgb(72, 0, 145);
+}
+.socials li{
+    list-style-type: none;
+   }
