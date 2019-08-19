@@ -1,18 +1,35 @@
+.navbar{
+    font-size: 18pt;
+}
 .navbar-nav a:hover{
     color: red;
-}
-body{
-    background-image: linear-gradient(rgb(215, 247, 212), rgba(233, 147, 19, 0.884));  
-}
-
-.skills{
-    
 }
 .mybody span{
     font-size: 1.2rem; 
 }
-.namefont{
+body{
+background-image: url(../img/bg.jpg);
+/* linear-gradient( 135deg ,transparent, rgba(223, 146, 5, 0.979)), repeating-linear-gradient(-45deg,rgba(209, 112, 2, 0.979) 0%,rgba(209, 112, 2, 0.979) 1%,transparent 1%,transparent 2%), repeating-linear-gradient(45deg,rgb(209, 112, 2, 0.979) 0%,rgb(209, 112, 2, 0.979) 1%,transparent 1%,transparent 2%);  
+*/
+background-attachment: fixed ;
+
+}
+
+.preview_text{
+    background-color: rgba(175, 212, 247, 0.925)
+}
+.skills{
     
+}
+
+.namefont{
+    background-color: rgba(68, 72, 112, 0.781);
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-size: 2.5em;
+    color: black;
 }
 .foto{
     max-width: 214px;
