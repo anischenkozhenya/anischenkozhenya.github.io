@@ -1,35 +1,43 @@
 .navbar{
+    font-family: 'Bangers', cursive;
     font-size: 18pt;
 }
-.navbar-nav a:hover{
-    color: red;
+.navlogo{
+    color: rgb(255, 255, 255);
+}
+.navlogo:hover{
+color:rgb(250, 125, 10);   
+}
+.bg-nav-btn{
+    background-color: rgb(178, 84, 44); 
+}
+.bg-nav{
+    background-color: #5e1384bd;
 }
 .mybody span{
     font-size: 1.2rem; 
 }
 body{
-background-image: url(../img/bg.jpg);
-/* linear-gradient( 135deg ,transparent, rgba(223, 146, 5, 0.979)), repeating-linear-gradient(-45deg,rgba(209, 112, 2, 0.979) 0%,rgba(209, 112, 2, 0.979) 1%,transparent 1%,transparent 2%), repeating-linear-gradient(45deg,rgb(209, 112, 2, 0.979) 0%,rgb(209, 112, 2, 0.979) 1%,transparent 1%,transparent 2%);  
-*/
+background-position: center;    
+background-image: url(../img/csbg.jpg);
 background-attachment: fixed ;
-
 }
 
-.preview_text{
-    background-color: rgba(175, 212, 247, 0.925)
-}
-.skills{
-    
+.bgcontaner{
+    background-color: rgba(193, 117, 31, 0.6);
 }
 
 .namefont{
-    background-color: rgba(68, 72, 112, 0.781);
     border-radius: 25px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 5px;
     font-size: 2.5em;
-    color: black;
+    color:rgba(14, 8, 12, 0.66)/*rgb(0, 120, 255)*/;
+    font-family: 'Fredoka One', cursive;
+}
+.namefont:hover{
+    cursor: default;
 }
 .foto{
     max-width: 214px;
@@ -40,9 +48,7 @@ background-attachment: fixed ;
     color:red;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-    color:rgb(72, 0, 145);
-}
+
 .socials li{
     list-style-type: none;
 }
@@ -60,4 +66,28 @@ background-attachment: fixed ;
 }
 .contacts{
     padding-bottom: 50px;
+}
+.bg-practice{
+    background-color: rgba(100, 10, 90, 0.62);
+    color: rgb(255, 255, 255);
+}
+.text_preview{
+   color: rgb(14, 8, 12)
+}
+span.text_preview{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+p.text_preview{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.list-group-item.active{
+    background-color:rgb(90, 9, 65);
+ 
+}
+.list-group-item-color {
+    color: #2f1a38;
+    background-color: #daac75e3;
+    border-color: #ff5800;
 }

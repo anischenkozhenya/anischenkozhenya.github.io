@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/all.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Fredoka+One|Oswald:400,600&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/main.css">
 
     <title>AnischenkoZhenya</title>
@@ -18,13 +18,14 @@
 
 <body>
     <!-- NavBar-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-sm bg-nav text-center">
+        <button class="navbar-toggler bg-nav-btn navbar-light" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav mx-auto px-2">
                 <li class="nav-item">
                     <a class="nav-link navlogo" href="#mybody">Превью</a>
                 </li>
@@ -45,32 +46,33 @@
     <div class="mybody" id="mybody">
 
         <!-- Превью тело -->
-        <div class="container preview mt-2 p-2 border border-2 border-success rounded" id="preview">
+        <div class="container preview bgcontaner mt-2 p-2 rounded" id="preview">
             <div class="row">
                 <div class="col-md-4 col-sm-5 m-auto text-center">
-                    <img class="card-img foto rounded-circle border border-2 border-success" src="img/foto.jpg"
-                        alt="myfoto">
+                    <img class="card-img foto rounded-circle border" src="img/foto.jpg" alt="myfoto">
                 </div>
                 <div class="col-md-8 ml-auto">
-                    <div class="preview_text rounded px-2 "><h2 class="text-center">
-                        Анищенко Евгений Викторович
-                    </h2>
-                    <p><span class="text-success strong big">Города проживания:</span> Минск, Гомель<br>
-                        <span class="text-success strong big">Образование:</span> Белорусский Государственный
-                        Университет Транспорта, 2016<br>
-                        <span class="text-success strong">Специальность:</span> Автоматика, телемеханика и связь на
-                        железной дороге<br>
-                        <span class="text-success">Специализация:</span> Микропроцессорные информационно-управляющие
-                        системы<br>
-                        <span class="text-success">Опыт работы:</span> Минская дистанция сигнализации и связи, Системное
-                        администрирование(2016-по настоящее время)</p>
+                    <div class="rounded px-2">
+                        <h1 class="text-center  text_preview">
+                            Анищенко Евгений Викторович
+                        </h1>
+                        <p class="text_preview"><span class="text_preview">Города проживания:</span> Минск, Гомель<br>
+                            <span class="text_preview">Образование:</span> Белорусский Государственный
+                            Университет Транспорта, 2016<br>
+                            <span class="text_preview">Специальность:</span> Автоматика, телемеханика и связь на
+                            железной дороге<br>
+                            <span class="text_preview">Специализация:</span> Микропроцессорные информационно-управляющие
+                            системы<br>
+                            <span class="text_preview">Опыт работы:</span> Минская дистанция сигнализации и связи,
+                            Системное
+                            администрирование(2016-по настоящее время)</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Навыки тело -->
-        <div class="container skills mt-2 border border-2 border-primary rounded" id="skills">
+        <div class="container skills bgcontaner mt-2 rounded" id="skills">
             <!-- Навыки заголовок -->
             <div class="row">
                 <div class="col-lg-12 d-inline-flex p-2 justify-content-center">
@@ -78,9 +80,9 @@
                 </div>
             </div>
             <!-- Навыки .NET -->
-            <div class="row justify-content-around mb-5 mx-2 text-white">
+            <div class="row justify-content-around mb-2 mx-2 text-white">
                 <div class="col-lg-5 col-md-12 p-3">
-                    <div class="card bg-primary">
+                    <div class="card bg-practice">
                         <div class="card-body">
                             <h3 class="card-header text-center">
                                 <span>
@@ -146,10 +148,11 @@
                                             target="_blank">SOLOLEARN</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.codewars.com/users/anischenkozhenya" class="text-white" target="_blank">
+                                        <a href="https://www.codewars.com/users/anischenkozhenya" class="text-white"
+                                            target="_blank">
                                             <span><img src="img/codewarsicon.png" alt="codewars" width="23px"
-                                                height="23px" class="codewars">
-                                        </span>Codewars
+                                                    height="23px" class="codewars">
+                                            </span>Codewars
                                         </a>
                                     </li>
                                 </ul>
@@ -160,11 +163,12 @@
                 </div>
                 <!-- Навыки web+any -->
                 <div class="col-lg-5 col-md-12 p-3 flex-column d-flex justify-content-around text-white">
-                    <div class="card bg-primary mb-3">
+                    <div class="card bg-practice mb-3">
                         <div class="card-body">
                             <h3 class="card-header text-center">
                                 <span>
-                                    <img src="img/website-icon-18.png" width="40" class="menuicon" height="40" alt="WEB">
+                                    <img src="img/website-icon-18.png" width="40" class="menuicon" height="40"
+                                        alt="WEB">
                                 </span>
                                 WEB
                             </h3>
@@ -180,7 +184,7 @@
                                     <button class="btn btn-link text-white text-normal mybtn" data-toggle="collapse"
                                         data-target="#collapseweb" aria-expanded="true" aria-controls="collapseweb">
                                         <p class="mb-0">Ресурсы используемые для изучения</p>
-                                        </button>
+                                    </button>
                                 </h4>
                             </div>
                             <div class="collapse" id="collapseweb" aria-labelledby="headingweb"
@@ -198,13 +202,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card bg-primary mt-3">
+                    <div class="card bg-practice mt-3">
                         <div class="card-body">
                             <h3 class="card-header text-center">
                                 <span>
                                     <img src="img/computer.png" width="40" class="menuicon" height="40" alt="computer">
                                 </span>
-                                Any
+                                OTHERS
                             </h3>
                             <ul class="card-text">
                                 <li>SQL</li>
@@ -218,11 +222,8 @@
                 </div>
             </div>
         </div>
-
-
-
         <!-- Практика тело -->
-        <div class="container practice mt-2 border border-2 border-info rounded" id="practice">
+        <div class="container practice bgcontaner mt-2 mb-2 rounded" id="practice">
             <div class="row">
                 <div class="col-lg-12 d-inline-flex p-2 justify-content-center">
                     <h1 class="namefont">Практика</h1>
@@ -231,36 +232,36 @@
             <div class="row  justify-content-around mb-5 mx-2 text-white">
                 <div class="col-md-12 p-3 ">
                     <div id="accordion_practice">
-                        <div class="card bg-info">
-                            <div class="card-header" id="headingOne">
-                                <h5>
+                        <div class="card bg-practice">
+                            <div class="card-header" id="heading1">
+                                <h5 class="text-center">
                                     <button class="btn btn-link text-center text-white" data-toggle="collapse"
-                                        data-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">Пользовательские коллекции</button>
+                                        data-target="#collapse1" aria-expanded="true"
+                                        aria-controls="collapse1">Пользовательские коллекции</button>
                                 </h5>
                             </div>
-                            <div class="collapse show" id="collapseOne" aria-labelledby="headingOne"
+                            <div class="collapse show" id="collapse1" aria-labelledby="heading1"
                                 data-parent="#accordion_practice">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <div class="list-group text-center" id="list-tab" role="tablist">
-                                                <a class="list-group-item list-group-item-success active"
+                                                <a class="list-group-item list-group-item-color active"
                                                     id="list-home-list" data-toggle="list" href="#list-home">
                                                     Задание 1
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-profile-list" data-toggle="list" href="#list-profile">
                                                     Задание 2
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-messages-list" data-toggle="list" href="#list-messages">
                                                     Задание 3
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-settings-list" data-toggle="list" href="#list-settings">
                                                     Задание 4
 
@@ -272,28 +273,28 @@
                                                 <div class="tab-pane fade show active" id="list-home"
                                                     aria-labelledby="list-home-list">
                                                     <p>Задача: </p>
-                                                    <p class="aling-bottom"> Ссылка на решение: 
+                                                    <p class="aling-bottom"> Ссылка на решение:
                                                         <a href="#"></a>
                                                     </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-profile"
                                                     aria-labelledby="list-profile-list">
                                                     <p>Задача: </p>
-                                                    <p class="aling-bottom"> Ссылка на решение: 
+                                                    <p class="aling-bottom"> Ссылка на решение:
                                                         <a href="#"></a>
                                                     </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-messages"
                                                     aria-labelledby="list-messages-list">
                                                     <p>Задача: </p>
-                                                    <p class="aling-bottom"> Ссылка на решение: 
+                                                    <p class="aling-bottom"> Ссылка на решение:
                                                         <a href="#"></a>
                                                     </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-settings"
                                                     aria-labelledby="list-settings-list">
                                                     <p>Задача: </p>
-                                                    <p class="aling-bottom"> Ссылка на решение: 
+                                                    <p class="aling-bottom"> Ссылка на решение:
                                                         <a href="#"></a>
                                                     </p>
                                                 </div>
@@ -303,59 +304,71 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card bg-info">
-                            <div class="card-header" id="headingTwo">
-                                <h5>
-                                    <button class="btn btn-link collapsed text-white" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">Системные коллекции</button>
+                        <div class="card bg-practice">
+                            <div class="card-header" id="heading2">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapse2" aria-expanded="false"
+                                        aria-controls="collapse2">Пользовательские коллекции</button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo"
+                            <div class="collapse" id="collapse2" aria-labelledby="heading2"
                                 data-parent="#accordion_practice">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <div class="list-group text-center" id="list-tab" role="tablist">
-                                                <a class="list-group-item list-group-item-success active"
+                                                <a class="list-group-item list-group-item-color active"
                                                     id="list-home-list" data-toggle="list" href="#list-home">
                                                     Задание 1
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-profile-list" data-toggle="list" href="#list-profile">
                                                     Задание 2
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-messages-list" data-toggle="list" href="#list-messages">
                                                     Задание 3
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-settings-list" data-toggle="list" href="#list-settings">
                                                     Задание 4
 
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-sm-8">
                                             <div class="tab-content" id="nav-tabContent">
                                                 <div class="tab-pane fade show active" id="list-home"
                                                     aria-labelledby="list-home-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-profile"
                                                     aria-labelledby="list-profile-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-messages"
                                                     aria-labelledby="list-messages-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-settings"
                                                     aria-labelledby="list-settings-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -363,59 +376,71 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card bg-info">
-                            <div class="card-header" id="headingThree">
-                                <h5>
-                                    <button class="btn btn-link collapsed text-white" data-toggle="collapse"
-                                        data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">Ввод-Вывод</button>
+                        <div class="card bg-practice">
+                            <div class="card-header" id="heading3">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapse3" aria-expanded="false"
+                                        aria-controls="collapse3">dfgsdfgsdfgsdfgsdgf</button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapseThree" aria-labelledby="headingThree"
+                            <div class="collapse" id="collapse3" aria-labelledby="heading3"
                                 data-parent="#accordion_practice">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <div class="list-group text-center" id="list-tab" role="tablist">
-                                                <a class="list-group-item list-group-item-success active"
+                                                <a class="list-group-item list-group-item-color active"
                                                     id="list-home-list" data-toggle="list" href="#list-home">
                                                     Задание 1
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-profile-list" data-toggle="list" href="#list-profile">
                                                     Задание 2
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-messages-list" data-toggle="list" href="#list-messages">
                                                     Задание 3
 
                                                 </a>
-                                                <a class="list-group-item list-group-item-success"
+                                                <a class="list-group-item list-group-item-color"
                                                     id="list-settings-list" data-toggle="list" href="#list-settings">
                                                     Задание 4
 
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-sm-8">
                                             <div class="tab-content" id="nav-tabContent">
                                                 <div class="tab-pane fade show active" id="list-home"
                                                     aria-labelledby="list-home-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-profile"
                                                     aria-labelledby="list-profile-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-messages"
                                                     aria-labelledby="list-messages-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-settings"
                                                     aria-labelledby="list-settings-list">
-                                                    <p>Задача: <br>Ссылка на решение: <a href="#"></a></p>
+                                                    <p>Задача: </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a href="#"></a>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -428,7 +453,7 @@
             </div>
         </div>
         <!-- Контакты -->
-        <div class="container-fluid bg-dark contacts" id="contacts">
+        <div class="container-fluid contacts" id="contacts">
             <div class="row">
                 <div class="col-lg-12 d-inline-flex p-2 justify-content-center text-white">
                     <h1 class="namefont">Контакты</h1>
@@ -481,5 +506,4 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 </body>
-
 </html>
