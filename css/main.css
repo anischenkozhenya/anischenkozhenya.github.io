@@ -91,3 +91,8 @@ p.text_preview{
     background-color: #daac75e3;
     border-color: #ff5800;
 }
+.scroll{
+    position: relative;
+    height: 120px;
+    overflow: auto;				
+}
