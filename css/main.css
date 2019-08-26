@@ -21,6 +21,9 @@ body{
 background-position: center;    
 background-image: url(../img/csbg.jpg);
 background-attachment: fixed ;
+
+font-family: 'Merriweather', serif;
+font-weight: 600;
 }
 
 .bgcontaner{
@@ -75,11 +78,11 @@ background-attachment: fixed ;
    color: rgb(14, 8, 12)
 }
 span.text_preview{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 600;
 }
 p.text_preview{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 400;
 }
 .list-group-item.active{
