@@ -5,6 +5,11 @@
 .navlogo{
     color: rgb(255, 255, 255);
 }
+a{
+    text-decoration: none;
+    color: #cca820;
+}
+
 .navlogo:hover{
 color:rgb(250, 125, 10);   
 }
