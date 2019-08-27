@@ -9,6 +9,9 @@ a{
     text-decoration: none;
     color: #cca820;
 }
+a:hover{
+    text-decoration: none;    
+}
 
 .navlogo:hover{
 color:rgb(250, 125, 10);   
