@@ -824,8 +824,10 @@
                                             <div class="tab-content" id="nav-tabContent">
                                                 <div class="tab-pane fade show active" id="list-81"
                                                     aria-labelledby="list-81-list">
-                                                    <p>Задача: Создайте свой класс, объекты которого будут занимать много места в памяти
-                                                        (например, в коде класса будет присутствовать большой массив) и реализуйте
+                                                    <p>Задача: Создайте свой класс, объекты которого будут занимать
+                                                        много места в памяти
+                                                        (например, в коде класса будет присутствовать большой массив) и
+                                                        реализуйте
                                                         для этого класса формализованный шаблон очистки.
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
@@ -836,11 +838,15 @@
                                                     </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-82" aria-labelledby="list-82-list">
-                                                    <p>Задача: Создайте класс, который позволит выполнять мониторинг ресурсов, используемых программой.
-                                                        Используйте его в целях наблюдения за работой программы, а именно: пользователь может
-                                                        указать приемлемые уровни потребления ресурсов(памяти), а методы класса позволят выдать
-                                                        предупреждение, когда количество реально используемых ресурсов приблизиться к максимально допустимому уровню
-                                                         </p>
+                                                    <p>Задача: Создайте класс, который позволит выполнять мониторинг
+                                                        ресурсов, используемых программой.
+                                                        Используйте его в целях наблюдения за работой программы, а
+                                                        именно: пользователь может
+                                                        указать приемлемые уровни потребления ресурсов(памяти), а методы
+                                                        класса позволят выдать
+                                                        предупреждение, когда количество реально используемых ресурсов
+                                                        приблизиться к максимально допустимому уровню
+                                                    </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
                                                         <a target="_blank"
                                                             href="https://github.com/anischenkozhenya/Garbagecollector">github.com</a>
@@ -853,6 +859,72 @@
                                     </div>
                                 </div>
                             </div>
+
+                        </div>
+                        <div class="card bg-practice">
+                            <div class="card-header" id="heading9">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapse9" aria-expanded="false"
+                                        aria-controls="collapse9">Потоки</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapse9" aria-labelledby="heading9"
+                                data-parent="#accordion_practice">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="list-group text-center" id="list-tab" role="tablist">
+                                                <a class="list-group-item list-group-item-color active"
+                                                    id="list-91-list" data-toggle="list" href="#list-91">
+                                                    Задание 1
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color" id="list-92-list"
+                                                    data-toggle="list" href="#list-92">
+                                                    Задание 2
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="list-91"
+                                                    aria-labelledby="list-91-list">
+                                                    <p>Задача: Используя конструкции блокировки, создайте метод, который
+                                                        будет в цикле for (допустим, на 10
+                                                        итераций) увеличивать счетчик на единицу и выводить на экран
+                                                        счетчик и текущий поток.
+                                                        Метод запускается в трех потоках. Каждый поток должен
+                                                        выполниться поочередно, т.е.в
+                                                        результате на экран должны выводиться числа (значения счетчика)
+                                                        с 1 до 30 по порядку, а не в
+                                                        произвольном порядке.
+                                                    </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank" href="">github.com</a>
+                                                    </p>
+                                                    <p>#
+                                                    </p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-92" aria-labelledby="list-92-list">
+                                                    <p>Задача: Создайте консольное приложение, которое в различных потоках сможет получить доступ к 2-м
+                                                        файлам.Считайте из этих файлов содержимое и попытайтесь записать полученную
+                                                        информацию в третий файл. Чтение/запись должны осуществляться одновременно в каждом
+                                                        из дочерних потоков.Используйте блокировку потоков для того, чтобы добиться корректной
+                                                        записи в конечный файл.</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank" href="">github.com</a>
+                                                    </p>
+                                                    <p>#
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
