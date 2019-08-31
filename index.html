@@ -860,7 +860,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card bg-practice">
+                        <div class="card bg-practice" id="Thread">
                             <div class="card-header" id="heading9">
                                 <h5 class="text-center">
                                     <button class="btn btn-link text-center text-white" data-toggle="collapse"
@@ -1116,7 +1116,8 @@
                                                         позволит получить все нечетные числа из исходного массива.
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
-                                                        <a target="_blank" href="https://github.com/anischenkozhenya/TPL">github.com</a>
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/TPL">github.com</a>
                                                     </p>
                                                     <p>#Random#Stopwatch#AsParallel
                                                     </p>
@@ -1130,7 +1131,8 @@
                                                         поток программы(метод Main) не остановил свое выполнение.
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
-                                                        <a target="_blank" href="https://github.com/anischenkozhenya/TPL">github.com</a>
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/TPL">github.com</a>
                                                     </p>
                                                     <p>#Parallel#Task#Thread
                                                     </p>
@@ -1165,26 +1167,64 @@
                                                     data-toggle="list" href="#list-132">
                                                     Задание 2
                                                 </a>
+                                                <a class="list-group-item list-group-item-color" id="list-133-list"
+                                                    data-toggle="list" href="#list-133">
+                                                    Задание 3
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-sm-8">
                                             <div class="tab-content" id="nav-tabContent">
                                                 <div class="tab-pane fade show active" id="list-131"
                                                     aria-labelledby="list-131-list">
-                                                    <p>Задача:
+                                                    <p>Задача: Открыть параллельно два файла и записывать из них
+                                                        информацию в третий файл с использованием конструкции async
+                                                        wait.
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
-                                                        <a target="_blank" href="">github.com</a>
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/AsyncAwait">github.com</a>
                                                     </p>
-                                                    <p>#
+                                                    <p>#Mutex#Task#StreamReader#StreamWriter#Action#AsyncAwait
                                                     </p>
                                                 </div>
                                                 <div class="tab-pane fade" id="list-132"
                                                     aria-labelledby="list-132-list">
-                                                    <p>Задача:
+                                                    <p>Задача: Используя AsyncAwait, создайте метод, который будет в
+                                                        цикле for
+                                                        допустим, на 10 итераций) увеличивать счетчик на единицу и
+                                                        выводить на экран
+                                                        счетчик и текущий поток.
+                                                        Метод запускается в трех потоках. Каждый поток должен
+                                                        выполниться поочередно, т.е.в
+                                                        результате на экран должны выводиться числа (значения счетчика)
+                                                        с 1 до 30 по порядку, а не в
+                                                        произвольном порядке.
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
-                                                        <a target="_blank" href="">github.com</a>
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/AsyncAwait">github.com</a>
+                                                    </p>
+                                                    <p>#Task#AsynkAwait#lock
+                                                    </p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-133"
+                                                    aria-labelledby="list-133-list">
+                                                    <p>Задача: Создайте WPF приложение, разместите в окне TextBox и две
+                                                        кнопки. При нажатии на первую
+                                                        кнопку в TextBox выводится сообщение «Подключен к базе данных»
+                                                        при этом в обработчике
+                                                        установите задержку в 3-5 сек для имитации подключения к БД,
+                                                        также данная кнопка запускает
+                                                        таймер, который с периодичностью в несколько секунд выводит в
+                                                        TextBox сообщение «Данные
+                                                        получены». При нажатии на вторую кнопку по аналогии с первой
+                                                        отключаемся от базы (с
+                                                        задержкой), выводим сообщение и останавливаем таймер.
+                                                    </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/AsyncAwait">github.com</a>
                                                     </p>
                                                     <p>#
                                                     </p>
@@ -1195,62 +1235,62 @@
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Контакты -->
-            <div class="container-fluid contacts" id="contacts">
-                <div class="row">
-                    <div class="col-lg-12 d-inline-flex p-2 justify-content-center text-white">
-                        <h1 class="namefont">Контакты</h1>
-                    </div>
-                    <div class="col-lg-12">
-                        <ul class="socials socialsul d-flex justify-content-center mb-0">
-                            <li>
-                                <a href="https://vk.com/anishchenko_zhenya" target="_blank" class="foterlogo">
-                                    <i class="fab fa-vk logocontacts mx-2"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/евгений-анищенко-920927173" target="_blank"
-                                    class="foterlogo">
-                                    <i class="fab fa-linkedin mx-2"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/anischenkozhenya" target="_blank" class=" foterlogo">
-                                    <i class="fab fa-github logocontacts mx-2"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://t.me/anischenkozhenya" target="_blank" class=" foterlogo"><i
-                                        class="fab fa-telegram mx-2"></i></a>
-                            </li>
-                        </ul>
-                        <ul class="socials socialsul text-center justify-content-center mb-0">
-                            <li>
-                                <a href="mailto:anischenkozhenya@gmail.com" target="_blank" class="foterlogo">
-                                    <i class="far fa-envelope-open logocontacts mx-2"></i>anischenkozhenya@gmail.com
-                                </a>
-                            </li>
-                            <li>
-                                <a href="tel:+375445468555" class=" foterlogo">
-                                    <i class="fas fa-phone mx-2"></i>+375445468555</a>
-                            </li>
-                        </ul>
-                    </div>
+        </div>
+        <!-- Контакты -->
+        <div class="container-fluid contacts" id="contacts">
+            <div class="row">
+                <div class="col-lg-12 d-inline-flex p-2 justify-content-center text-white">
+                    <h1 class="namefont">Контакты</h1>
+                </div>
+                <div class="col-lg-12">
+                    <ul class="socials socialsul d-flex justify-content-center mb-0">
+                        <li>
+                            <a href="https://vk.com/anishchenko_zhenya" target="_blank" class="foterlogo">
+                                <i class="fab fa-vk logocontacts mx-2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/евгений-анищенко-920927173" target="_blank"
+                                class="foterlogo">
+                                <i class="fab fa-linkedin mx-2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/anischenkozhenya" target="_blank" class=" foterlogo">
+                                <i class="fab fa-github logocontacts mx-2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/anischenkozhenya" target="_blank" class=" foterlogo"><i
+                                    class="fab fa-telegram mx-2"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="socials socialsul text-center justify-content-center mb-0">
+                        <li>
+                            <a href="mailto:anischenkozhenya@gmail.com" target="_blank" class="foterlogo">
+                                <i class="far fa-envelope-open logocontacts mx-2"></i>anischenkozhenya@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+375445468555" class=" foterlogo">
+                                <i class="fas fa-phone mx-2"></i>+375445468555</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                crossorigin="anonymous"></script>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
