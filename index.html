@@ -115,7 +115,7 @@
                                 <li>Сборщик мусора.</li>
                                 <li>Потоки.</li>
                                 <li>Синхронизация при помощи обьектов ядра и конструкций пользовательского режима.</li>
-                                <li>Асинхронная модель програмирования.</li>
+                                <li>Асинхронная модель программирования.</li>
                                 <li>TPL. Параллельное программирование. Async Await.</li>
                                 <li>Домены приложений. NT-службы.</li>
                                 <li>Console. WinForms. WPF.</li>
@@ -1004,6 +1004,70 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="card bg-practice">
+                            <div class="card-header" id="heading11">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapse11" aria-expanded="false"
+                                        aria-controls="collapse11">Асинхронная модель программирования</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapse11" aria-labelledby="heading11"
+                                data-parent="#accordion_practice">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="list-group text-center" id="list-tab" role="tablist">
+                                                <a class="list-group-item list-group-item-color active"
+                                                    id="list-111-list" data-toggle="list" href="#list-111">
+                                                    Задание 1
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color" id="list-112-list"
+                                                    data-toggle="list" href="#list-112">
+                                                    Задание 2
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="list-111"
+                                                    aria-labelledby="list-111-list">
+                                                    <p>Задача: Создайте приложение WindowsForms. На главной форме приложения разместите 3 кнопки с
+                                                        названиями: IsComplete, End, Callback. Организуйте обработчики нажатия на кнопки таким
+                                                        образом, чтобы они инициировали асинхронное выполнение некоторого метода (метод
+                                                        определите сами, можно воспользоваться чем-то вроде Add или более абстрактного Compute).
+                                                        Для каждой из кнопок завершение асинхронного метода должно отслеживаться
+                                                        соответствующим образом:</br>                                                         
+                                                        IsComplete – с использованием значения свойства IsComplete</br>
+                                                        End – просто применяя EndInvoke</br>
+                                                        Callback – с использованием callback метода 
+                                                    </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="">github.com</a>
+                                                    </p>
+                                                    <p>#
+                                                    </p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-112" aria-labelledby="list-112-list">
+                                                    <p>Задача: Создайте консольное приложение, в котором организуйте асинхронный вызов метода.
+                                                        Используя конструкцию BeginInvoke передайте в поток некоторую информацию (возможно, в
+                                                        формате строки). Организуйте обработку переданных данных в callback методе. </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="">github.com</a>
+                                                    </p>
+                                                    <p>#
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
