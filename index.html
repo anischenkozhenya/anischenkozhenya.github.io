@@ -237,6 +237,114 @@
                 <div class="col-md-12 p-3 ">
                     <div id="accordion_practice">
                         <div class="card bg-practice">
+                            <div class="card-header" id="headingCollection">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapseCollection" aria-expanded="true"
+                                        aria-controls="collapseCollection">Ввод-Вывод данных</button>
+                                </h5>
+                            </div>
+                            <div class="collapse show" id="collapseCollection" aria-labelledby="headingCollection"
+                                data-parent="#accordion_practice">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="list-group text-center" id="list-tab" role="tablist">
+                                                <a class="list-group-item list-group-item-color active"
+                                                    id="list-Collection1-list" data-toggle="list"
+                                                    href="#list-Collection1">
+                                                    Задание 1
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color" id="list-12-list"
+                                                    data-toggle="list" href="#list-Collection2">
+                                                    Задание 2
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="list-Collection3-list" data-toggle="list"
+                                                    href="#list-Collection3">
+                                                    Задание 3
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="list-Collection1"
+                                                    aria-labelledby="list-Collection1-list">
+                                                    <p>Задача: Создайте метод, который в качестве аргумента принимает
+                                                        массив целых чисел и возвращает
+                                                        коллекцию квадратов всех нечетных чисел массива.Для формирования
+                                                        коллекции
+                                                        используйте оператор yield.</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/UserCollection">github.com</a>
+                                                    </p>
+                                                    <p>#Yield#IEnumerable#Array#Random</p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-Collection2"
+                                                    aria-labelledby="list-Collection2-list">
+                                                    <p>Задача: Создайте коллекцию, в которой бы хранились наименования
+                                                        12 месяцев, порядковый номер и
+                                                        количество дней в соответствующем месяце.Реализуйте возможность
+                                                        выбора месяцев, как по
+                                                        порядковому номеру, так и количеству дней в месяце, при этом
+                                                        результатом может быть не
+                                                        только один месяц.</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/UserCollection">github.com</a>
+                                                    </p>
+                                                    <p>#IEnumerable#IEnumerator#Array#List</p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-Collection3"
+                                                    aria-labelledby="list-Collection3-list">
+                                                    <div class="scroll">
+                                                    <p>Задача: Создайте абстрактный класс Гражданин.Создайте классы
+                                                        Студент, Пенсионер, Рабочий
+                                                        унаследованные от Гражданина. Создайте непараметризированную
+                                                        коллекцию со следующим
+                                                        функционалом:<br>
+                                                        1. Добавление элемента в коллекцию.<br>
+                                                        1) Можно добавлять только Гражданина.<br>
+                                                        2) При добавлении, элемент добавляется в конец коллекции.Если
+                                                        Пенсионер, – то в
+                                                        начало с учетом ранее стоящих Пенсионеров. Возвращается номер в
+                                                        очереди.<br>
+                                                        3) При добавлении одного и того же человека(проверка на
+                                                        равенство по номеру
+                                                        паспорта, необходимо переопределить метод Equals и/или операторы
+                                                        равенства для
+                                                        сравнения объектов по номеру паспорта) элемент не добавляется,
+                                                        выдается
+                                                        сообщение.<br>
+                                                        2. Удаление<br>
+                                                        1) Удаление – с начала коллекции.<br>
+                                                        2) Возможно удаление с передачей экземпляра Гражданина.<br>
+                                                        3. Метод Contains возвращает true/false при налчичии/отсутствии
+                                                        элемента в коллекции и
+                                                        номер в очереди.<br>
+                                                        4. Метод ReturnLast возвращsает последнего человека в очереди и
+                                                        его номер в очереди.<br>
+                                                        5. Метод Clear очищает коллекцию.<br>
+                                                        6. С коллекцией можно работать опертаором foreach.</p>
+                                                    </div>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/UserCollection">github.com</a>
+                                                    </p>
+                                                    <p>#Foreach#IEnumerable#IEnumerator#Random
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-practice">
                             <div class="card-header" id="heading1">
                                 <h5 class="text-center">
                                     <button class="btn btn-link text-center text-white" data-toggle="collapse"
@@ -244,7 +352,7 @@
                                         aria-controls="collapse1">Ввод-Вывод данных</button>
                                 </h5>
                             </div>
-                            <div class="collapse show" id="collapse1" aria-labelledby="heading1"
+                            <div class="collapse" id="collapse1" aria-labelledby="heading1"
                                 data-parent="#accordion_practice">
                                 <div class="card-body">
                                     <div class="row">
@@ -860,7 +968,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card bg-practice" id="Thread">
+                        <div class="card bg-practice">
                             <div class="card-header" id="heading9">
                                 <h5 class="text-center">
                                     <button class="btn btn-link text-center text-white" data-toggle="collapse"
@@ -1271,7 +1379,8 @@
                                                         сборки.
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
-                                                        <a target="_blank" href="https://github.com/anischenkozhenya/Domain">github.com</a>
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/Domain">github.com</a>
                                                     </p>
                                                     <p>#
                                                     </p>
@@ -1291,7 +1400,8 @@
                                                         старт и остановку сервиса.
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
-                                                        <a target="_blank" href="https://github.com/anischenkozhenya/Domain">github.com</a>
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/Domain">github.com</a>
                                                     </p>
                                                     <p>#
                                                     </p>
@@ -1321,7 +1431,7 @@
                                                     Задание 1
 
                                                 </a>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="col-sm-8">
@@ -1331,11 +1441,12 @@
                                                     <p>Задача: Создайте приложение WindowsForms крестики-нолики
                                                     </p>
                                                     <p class="aling-bottom"> Ссылка на решение:
-                                                        <a target="_blank" href="https://github.com/anischenkozhenya/tictactoe">github.com</a>
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/tictactoe">github.com</a>
                                                     </p>
                                                     <p>#Events#WinForms#Button#MessageBox
                                                     </p>
-                                                </div>                                                
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
