@@ -302,34 +302,40 @@
                                                 <div class="tab-pane fade" id="list-Collection3"
                                                     aria-labelledby="list-Collection3-list">
                                                     <div class="scroll">
-                                                    <p>Задача: Создайте абстрактный класс Гражданин.Создайте классы
-                                                        Студент, Пенсионер, Рабочий
-                                                        унаследованные от Гражданина. Создайте непараметризированную
-                                                        коллекцию со следующим
-                                                        функционалом:<br>
-                                                        1. Добавление элемента в коллекцию.<br>
-                                                        1) Можно добавлять только Гражданина.<br>
-                                                        2) При добавлении, элемент добавляется в конец коллекции.Если
-                                                        Пенсионер, – то в
-                                                        начало с учетом ранее стоящих Пенсионеров. Возвращается номер в
-                                                        очереди.<br>
-                                                        3) При добавлении одного и того же человека(проверка на
-                                                        равенство по номеру
-                                                        паспорта, необходимо переопределить метод Equals и/или операторы
-                                                        равенства для
-                                                        сравнения объектов по номеру паспорта) элемент не добавляется,
-                                                        выдается
-                                                        сообщение.<br>
-                                                        2. Удаление<br>
-                                                        1) Удаление – с начала коллекции.<br>
-                                                        2) Возможно удаление с передачей экземпляра Гражданина.<br>
-                                                        3. Метод Contains возвращает true/false при налчичии/отсутствии
-                                                        элемента в коллекции и
-                                                        номер в очереди.<br>
-                                                        4. Метод ReturnLast возвращsает последнего человека в очереди и
-                                                        его номер в очереди.<br>
-                                                        5. Метод Clear очищает коллекцию.<br>
-                                                        6. С коллекцией можно работать опертаором foreach.</p>
+                                                        <p>Задача: Создайте абстрактный класс Гражданин.Создайте классы
+                                                            Студент, Пенсионер, Рабочий
+                                                            унаследованные от Гражданина. Создайте непараметризированную
+                                                            коллекцию со следующим
+                                                            функционалом:<br>
+                                                            1. Добавление элемента в коллекцию.<br>
+                                                            1) Можно добавлять только Гражданина.<br>
+                                                            2) При добавлении, элемент добавляется в конец
+                                                            коллекции.Если
+                                                            Пенсионер, – то в
+                                                            начало с учетом ранее стоящих Пенсионеров. Возвращается
+                                                            номер в
+                                                            очереди.<br>
+                                                            3) При добавлении одного и того же человека(проверка на
+                                                            равенство по номеру
+                                                            паспорта, необходимо переопределить метод Equals и/или
+                                                            операторы
+                                                            равенства для
+                                                            сравнения объектов по номеру паспорта) элемент не
+                                                            добавляется,
+                                                            выдается
+                                                            сообщение.<br>
+                                                            2. Удаление<br>
+                                                            1) Удаление – с начала коллекции.<br>
+                                                            2) Возможно удаление с передачей экземпляра Гражданина.<br>
+                                                            3. Метод Contains возвращает true/false при
+                                                            налчичии/отсутствии
+                                                            элемента в коллекции и
+                                                            номер в очереди.<br>
+                                                            4. Метод ReturnLast возвращsает последнего человека в
+                                                            очереди и
+                                                            его номер в очереди.<br>
+                                                            5. Метод Clear очищает коллекцию.<br>
+                                                            6. С коллекцией можно работать опертаором foreach.</p>
                                                     </div>
                                                     <p class="aling-bottom"> Ссылка на решение:
                                                         <a target="_blank"
@@ -345,100 +351,230 @@
                             </div>
                         </div>
                         <div class="card bg-practice">
-                                <div class="card-header" id="headingSystemCollection">
-                                    <h5 class="text-center">
-                                        <button class="btn btn-link text-center text-white" data-toggle="collapse"
-                                            data-target="#collapseSystemCollection" aria-expanded="true"
-                                            aria-controls="collapseSystemCollection">Системные коллекции</button>
-                                    </h5>
-                                </div>
-                                <div class="collapse" id="collapseSystemCollection" aria-labelledby="headingSystemCollection"
-                                    data-parent="#accordion_practice">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-4">
-                                                <div class="list-group text-center" id="list-tab" role="tablist">
-                                                    <a class="list-group-item list-group-item-color active"
-                                                        id="list-SystemCollection1-list" data-toggle="list"
-                                                        href="#list-SystemCollection1">
-                                                        Задание 1
-    
-                                                    </a>
-                                                    <a class="list-group-item list-group-item-color" id="SystemCollection2-list"
-                                                        data-toggle="list" href="#list-SystemCollection2">
-                                                        Задание 2
-    
-                                                    </a>
-                                                    <a class="list-group-item list-group-item-color"
-                                                        id="list-SystemCollection3-list" data-toggle="list"
-                                                        href="#list-SystemCollection3">
-                                                        Задание 3
-    
-                                                    </a>
-                                                    <a class="list-group-item list-group-item-color"
-                                                        id="list-SystemCollection4-list" data-toggle="list"
-                                                        href="#list-SystemCollection4">
-                                                        Задание 4
-    
-                                                    </a>
-                                                </div>
+                            <div class="card-header" id="headingGenerics">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapseGenerics" aria-expanded="true"
+                                        aria-controls="collapseGenerics">Универсальные шаблоны</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapseGenerics" aria-labelledby="headingGenerics"
+                                data-parent="#accordion_practice">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="list-group text-center" id="list-tab" role="tablist">
+                                                <a class="list-group-item list-group-item-color active"
+                                                    id="list-Generics1-list" data-toggle="list" href="#list-Generics1">
+                                                    Задание 1
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color" id="Generics2-list"
+                                                    data-toggle="list" href="#list-Generics2">
+                                                    Задание 2
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="list-Generics3-list" data-toggle="list" href="#list-Generics3">
+                                                    Задание 3
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="list-Generics4-list" data-toggle="list" href="#list-Generics4">
+                                                    Задание 4
+
+                                                </a>
                                             </div>
-                                            <div class="col-sm-8">
-                                                <div class="tab-content" id="nav-tabContent">
-                                                    <div class="tab-pane fade show active" id="list-SystemCollection1"
-                                                        aria-labelledby="list-SystemCollection1-list">
-                                                        <p>Задача: Используя класс SortedList, создайте небольшую коллекцию и выведите на экран значения пар
-                                                                «ключ- значение» сначала в алфавитном порядке, а затем в обратном. 
-                                                                </p>
-                                                        <p class="aling-bottom"> Ссылка на решение:
-                                                            <a target="_blank"
-                                                                href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
-                                                        </p>
-                                                        <p>#SortedList#DictionaryEntry#IComparer#CaseInsensitiveComparer</p>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="list-SystemCollection2"
-                                                        aria-labelledby="list-SystemCollection2-list">
-                                                        <p>Задача: Создайте коллекцию, в которую можно добавлять покупателей и категорию приобретенной ими
-                                                                продукции. Из коллекции можно получать категории товаров, которые купил покупатель или по
-                                                                категории определить покупателей.</p>
-                                                        <p class="aling-bottom"> Ссылка на решение:
-                                                            <a target="_blank"
-                                                                href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
-                                                        </p>
-                                                        <p>#Dictionary>#List#Enum</p>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="list-SystemCollection3"
-                                                        aria-labelledby="list-SystemCollection3-list">
-                                                        
-                                                        <p>Задача: Несколькими способами создайте коллекцию, в которой можно хранить только целочисленные и
-                                                                вещественные значения, по типу «счет предприятия – доступная сумма» соответственно. </p>
-                                                       
-                                                        <p class="aling-bottom"> Ссылка на решение:
-                                                            <a target="_blank"
-                                                                href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
-                                                        </p>
-                                                        <p>#SortedDictionary#Dictionary
-                                                        </p>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="list-SystemCollection4"
-                                                        aria-labelledby="list-SystemCollection4-list">
-                                                        
-                                                        <p>Задача: Создайте коллекцию типа OrderedDictionary и реализуйте в ней возможность сравнения значений
-                                                                ключей.  </p>
-                                                       
-                                                        <p class="aling-bottom"> Ссылка на решение:
-                                                            <a target="_blank"
-                                                                href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
-                                                        </p>
-                                                        <p>#OrderedDictionary#IEqualityComparer
-                                                        </p>
-                                                    </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="list-Generics1"
+                                                    aria-labelledby="list-Generics1-list">
+                                                    <p>Задача: Создайте класс MyClass&lsaquo;T&rsaquo;, содержащий
+                                                        статический фабричный метод – T FactoryMethod(),
+                                                        который будет порождать экземпляры типа, указанного в качестве
+                                                        параметра типа(указателя места
+                                                        заполнения типом – Т).</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/Generics">github.com</a>
+                                                    </p>
+                                                    <p>#Interface#generics#Where#Array#&lsaquo;T&rsaquo;</p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-Generics2"
+                                                    aria-labelledby="list-Generics2-list">
+                                                    <p>Задача: Используя Visual Studio, создайте проект по шаблону
+                                                        Console Application.
+                                                        Создайте класс MyList&lsaquo;
+                                                        &rsaquo;T&lsaquo;
+                                                        &rsaquo;. Реализуйте в простейшем приближении возможность
+                                                        использования его
+                                                        экземпляра аналогично экземпляру класса List&lsaquo;
+                                                        &rsaquo;T&lsaquo;
+                                                        &rsaquo;. Минимально требуемый интерфейс
+                                                        взаимодействия с экземпляром, должен включать метод добавления
+                                                        элемента, индексатор для
+                                                        получения значения элемента по указанному индексу и свойство
+                                                        только для чтения для получения
+                                                        общего количества элементов. </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/Generics">github.com</a>
+                                                    </p>
+                                                    <p>#Interface#generics#Where#Array#List#&lsaquo;T&rsaquo;</p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-Generics3"
+                                                    aria-labelledby="list-Generics3-list">
+
+                                                    <p>Задача: Создайте класс MyDictionary &lsaquo; TKey, TValue
+                                                        &rsaquo; .Реализуйте в простейшем приближении возможность
+                                                        использования его экземпляра аналогично экземпляру класса
+                                                        Dictionary.
+                                                        Минимально требуемый интерфейс взаимодействия с экземпляром,
+                                                        должен включать метод
+                                                        добавления пар элементов, индексатор для получения значения
+                                                        элемента по указанному индексу и
+                                                        свойство только для чтения для получения общего количества пар
+                                                        элементов.</p>
+
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/Generics">github.com</a>
+                                                    </p>
+                                                    <p>#Interface#generics#Where#Array#Dictionary#&lsaquo;T&rsaquo;
+                                                    </p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-Generics4"
+                                                    aria-labelledby="list-Generics4-list">
+                                                    <p>Задача: Используя Visual Studio, создайте проект по шаблону
+                                                        Console Application.
+                                                        Создайте расширяющий метод: public static T[] GetArray&lsaquo;
+                                                        &rsaquo;T&lsaquo;
+                                                        &rsaquo;(this MyList&lsaquo;
+                                                        &rsaquo;T&lsaquo;
+                                                        &rsaquo; list)
+                                                        Примените расширяющий метод к экземпляру типа MyList&lsaquo;
+                                                        &rsaquo;T&lsaquo;
+                                                        &rsaquo;, разработанному в домашнем задании 2
+                                                        для данного урока.Выведите на экран значения элементов массива,
+                                                        который вернул расширяющий
+                                                        метод GetArray().</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/Generics">github.com</a>
+                                                    </p>
+                                                    <p>#Interface#generics#Where#Array#List#ExtensionMethods#&lsaquo;T&rsaquo;
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="card bg-practice">
+                            <div class="card-header" id="headingSystemCollection">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapseSystemCollection" aria-expanded="true"
+                                        aria-controls="collapseSystemCollection">Системные коллекции</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapseSystemCollection"
+                                aria-labelledby="headingSystemCollection" data-parent="#accordion_practice">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="list-group text-center" id="list-tab" role="tablist">
+                                                <a class="list-group-item list-group-item-color active"
+                                                    id="list-SystemCollection1-list" data-toggle="list"
+                                                    href="#list-SystemCollection1">
+                                                    Задание 1
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="SystemCollection2-list" data-toggle="list"
+                                                    href="#list-SystemCollection2">
+                                                    Задание 2
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="list-SystemCollection3-list" data-toggle="list"
+                                                    href="#list-SystemCollection3">
+                                                    Задание 3
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="list-SystemCollection4-list" data-toggle="list"
+                                                    href="#list-SystemCollection4">
+                                                    Задание 4
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="list-SystemCollection1"
+                                                    aria-labelledby="list-SystemCollection1-list">
+                                                    <p>Задача: Используя класс SortedList, создайте небольшую коллекцию
+                                                        и выведите на экран значения пар
+                                                        «ключ- значение» сначала в алфавитном порядке, а затем в
+                                                        обратном.
+                                                    </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
+                                                    </p>
+                                                    <p>#SortedList#DictionaryEntry#IComparer#CaseInsensitiveComparer</p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-SystemCollection2"
+                                                    aria-labelledby="list-SystemCollection2-list">
+                                                    <p>Задача: Создайте коллекцию, в которую можно добавлять покупателей
+                                                        и категорию приобретенной ими
+                                                        продукции. Из коллекции можно получать категории товаров,
+                                                        которые купил покупатель или по
+                                                        категории определить покупателей.</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
+                                                    </p>
+                                                    <p>#Dictionary>#List#Enum</p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-SystemCollection3"
+                                                    aria-labelledby="list-SystemCollection3-list">
+
+                                                    <p>Задача: Несколькими способами создайте коллекцию, в которой можно
+                                                        хранить только целочисленные и
+                                                        вещественные значения, по типу «счет предприятия – доступная
+                                                        сумма» соответственно. </p>
+
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
+                                                    </p>
+                                                    <p>#SortedDictionary#Dictionary
+                                                    </p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-SystemCollection4"
+                                                    aria-labelledby="list-SystemCollection4-list">
+
+                                                    <p>Задача: Создайте коллекцию типа OrderedDictionary и реализуйте в
+                                                        ней возможность сравнения значений
+                                                        ключей. </p>
+
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/SystemCollection">github.com</a>
+                                                    </p>
+                                                    <p>#OrderedDictionary#IEqualityComparer
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card bg-practice">
                             <div class="card-header" id="heading1">
                                 <h5 class="text-center">
@@ -1605,5 +1741,4 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 </body>
-
 </html>
