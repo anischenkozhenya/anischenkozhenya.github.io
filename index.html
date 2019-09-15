@@ -406,11 +406,11 @@
                                                     <p>Задача: Используя Visual Studio, создайте проект по шаблону
                                                         Console Application.
                                                         Создайте класс MyList&lsaquo;
-                                                        &rsaquo;T&lsaquo;
+                                                        T
                                                         &rsaquo;. Реализуйте в простейшем приближении возможность
                                                         использования его
                                                         экземпляра аналогично экземпляру класса List&lsaquo;
-                                                        &rsaquo;T&lsaquo;
+                                                        T
                                                         &rsaquo;. Минимально требуемый интерфейс
                                                         взаимодействия с экземпляром, должен включать метод добавления
                                                         элемента, индексатор для
@@ -426,7 +426,7 @@
                                                 <div class="tab-pane fade" id="list-Generics3"
                                                     aria-labelledby="list-Generics3-list">
 
-                                                    <p>Задача: Создайте класс MyDictionary &lsaquo; TKey, TValue
+                                                    <p>Задача: Создайте класс MyDictionary &lsaquo;TKey, TValue
                                                         &rsaquo; .Реализуйте в простейшем приближении возможность
                                                         использования его экземпляра аналогично экземпляру класса
                                                         Dictionary.
@@ -449,12 +449,12 @@
                                                     <p>Задача: Используя Visual Studio, создайте проект по шаблону
                                                         Console Application.
                                                         Создайте расширяющий метод: public static T[] GetArray&lsaquo;
-                                                        &rsaquo;T&lsaquo;
+                                                        T
                                                         &rsaquo;(this MyList&lsaquo;
-                                                        &rsaquo;T&lsaquo;
+                                                        T
                                                         &rsaquo; list)
                                                         Примените расширяющий метод к экземпляру типа MyList&lsaquo;
-                                                        &rsaquo;T&lsaquo;
+                                                        T
                                                         &rsaquo;, разработанному в домашнем задании 2
                                                         для данного урока.Выведите на экран значения элементов массива,
                                                         который вернул расширяющий
@@ -464,6 +464,110 @@
                                                             href="https://github.com/anischenkozhenya/Generics">github.com</a>
                                                     </p>
                                                     <p>#Interface#generics#Where#Array#List#ExtensionMethods#&lsaquo;T&rsaquo;
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-practice">
+                            <div class="card-header" id="headingGenericsParam">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapseGenericsParam" aria-expanded="true"
+                                        aria-controls="collapseGenericsParam">Ограничения Универсальных
+                                        шаблонов</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapseGenericsParam" aria-labelledby="headingGenericsParam"
+                                data-parent="#accordion_practice">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="list-group text-center" id="list-tab" role="tablist">
+                                                <a class="list-group-item list-group-item-color active"
+                                                    id="list-GenericsParam1-list" data-toggle="list"
+                                                    href="#list-GenericsParam1">
+                                                    Задание 1
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="GenericsParam2-list" data-toggle="list"
+                                                    href="#list-GenericsParam2">
+                                                    Задание 2
+
+                                                </a>
+                                                <a class="list-group-item list-group-item-color"
+                                                    id="list-GenericsParam3-list" data-toggle="list"
+                                                    href="#list-GenericsParam3">
+                                                    Задание 3
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="list-GenericsParam1"
+                                                    aria-labelledby="list-GenericsParam1-list">
+                                                    <p>Задача: Используя Visual Studio, создайте проект по шаблону
+                                                        Console Application.
+                                                        В коллекцию ArrayList, через вызов метода Add добавьте элементы
+                                                        структурного и ссылочного типа,
+                                                        переберите данную коллекцию с помощью, цикла for</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/GenericConstraints">github.com</a>
+                                                    </p>
+                                                    <p>#
+                                                </div>
+                                                <div class="tab-pane fade" id="list-GenericsParam2"
+                                                    aria-labelledby="list-GenericsParam2-list">
+                                                    <p>Задача: Используя Visual Studio, создайте проект по шаблону
+                                                        Console Application.
+                                                        Создайте класс CarCollection
+                                                        &lsaquo;T&rsaquo;
+                                                        . Реализуйте в простейшем
+                                                        приближении возможность
+                                                        использования его экземпляра для создания парка машин.
+                                                        Минимально требуемый интерфейс
+                                                        взаимодействия с экземпляром, должен включать метод
+                                                        добавления машин с названием машины и
+                                                        года ее выпуска, индексатор для получения значения элемента
+                                                        по указанному индексу и свойство
+                                                        только для чтения для получения общего количества элементов.
+                                                        Создайте метод удаления всех машин автопарка. </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/GenericConstraints">github.com</a>
+                                                    </p>
+                                                    <p>#
+
+                                                    </p>
+                                                </div>
+                                                <div class="tab-pane fade" id="list-GenericsParam3"
+                                                    aria-labelledby="list-GenericsParam3-list">
+
+                                                    <p>Задача: Используя Visual Studio, создайте проект по шаблону
+                                                        Console Application.
+                                                        Создайте класс Dictionary
+                                                        &lsaquo;TKey, TValue&rsaquo;
+                                                        . Реализуйте в
+                                                        простейшем приближении возможность
+                                                        использования его экземпляра аналогично экземпляру класса
+                                                        Dictionary из пространства имен
+                                                        System.Collections.Generic.Минимально требуемый интерфейс
+                                                        взаимодействия с экземпляром,
+                                                        должен включать метод добавления пар элементов, индексатор
+                                                        для получения значения элемента по
+                                                        указанному индексу и свойство только для чтения для
+                                                        получения общего количества пар элементов.</p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/GenericConstraints">github.com</a>
+                                                    </p>
+                                                    <p>#
                                                     </p>
                                                 </div>
                                             </div>
@@ -1741,4 +1845,5 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 </body>
+
 </html>
