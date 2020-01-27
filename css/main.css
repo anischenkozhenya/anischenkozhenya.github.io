@@ -109,7 +109,7 @@ p.text_preview{
     right:10px;
     cursor:pointer;
     display:none;
-    background-color: rgb(145, 71, 102);
+    background-color: rgba(145, 71, 102, 0.527);
 }
 
 #arrowup{

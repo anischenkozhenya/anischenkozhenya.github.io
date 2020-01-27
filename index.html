@@ -13,8 +13,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-        
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="js/main.js"></script>
     <title>AnischenkoZhenya</title>
 </head>
@@ -203,7 +203,8 @@
                                 data-parent="#accordionweb">
                                 <ul>
                                     <li> <a href="https://itvdn.com/ru/specialities/html-coder" class="text-white"
-                                            target="_blank">Видео курсы ITVDN по HTML, CSS, Bootstrap4,JS,JQuery</a></li>
+                                            target="_blank">Видео курсы ITVDN по HTML, CSS, Bootstrap4,JS,JQuery</a>
+                                    </li>
                                     <li>
                                         <a href="https://bootstrap-4.ru/" class="text-white"
                                             target="_blank">Документация на
@@ -2298,6 +2299,47 @@
                             </div>
                         </div>
                         <div class="card bg-practice">
+                            <div class="card-header" id="headingEpamTasks">
+                                <h5 class="text-center">
+                                    <button class="btn btn-link text-center text-white" data-toggle="collapse"
+                                        data-target="#collapseEpamTasks" aria-expanded="false"
+                                        aria-controls="collapseEpamTasks">(EPAM)Type Comparison And Cloning</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapseEpamTasks" aria-labelledby="headingEpamTasks"
+                                data-parent="#accordion_practice">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="list-group text-center" id="list-tab" role="tablist">
+                                                <a class="list-group-item list-group-item-color active"
+                                                    id="list-EpamTasks-list" data-toggle="list" href="#list-EpamTasks">
+                                                    Type Comparison And Cloning
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="tab-content" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="list-EpamTasks"
+                                                    aria-labelledby="list-EpamTasks-list">
+                                                    <p>Файл с заданием: <a target="_blank"
+                                                            href="https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M7.%20Framework%20Fundamentals">ЗАДАНИЕ</a>
+                                                    </p>
+                                                    <p class="aling-bottom"> Ссылка на решение:
+                                                        <a target="_blank"
+                                                            href="https://github.com/anischenkozhenya/TypeComparisonAndCloning/tree/master/TypeComparisonAndCloning">github.com</a>
+                                                    </p>
+                                                    <p>#String#LinQ#NUnit#Regex
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-practice">
                             <div class="card-header" id="headingTictacToe">
                                 <h5 class="text-center">
                                     <button class="btn btn-link text-center text-white" data-toggle="collapse"
@@ -2988,22 +3030,27 @@
         </div>
         <div>
             <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+            <script type="text/javascript">
+                (function (m, e, t, r, i, k, a) {
+                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                    m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(56328340, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true,
-        trackHash:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/56328340" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-</div>
+                ym(56328340, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true,
+                    trackHash: true
+                });
+            </script>
+            <noscript>
+                <div><img src="https://mc.yandex.ru/watch/56328340" style="position:absolute; left:-9999px;" alt="" />
+                </div>
+            </noscript>
+            <!-- /Yandex.Metrika counter -->
+        </div>
         <div id="scrollUp">
             <img id="arrowup" src="svgs/iconfinder_arrow-up-circle_3325054.svg" alt="UP">
         </div>
@@ -3013,7 +3060,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-        
+
 </body>
 
 </html>
